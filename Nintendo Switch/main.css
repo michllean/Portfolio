@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+.switchContainer {
+    position: absolute;
+    justify-content: center;
+}
+
+.switchContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#deviceOn {
+    position: absolute;
+    top: 19.2%;
+    left: 21.6%;
+    width: 57.2%;
+    height: 63.8%;
+    background-size: cover;
+    z-index: 3;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 3;
+}
+
+#homeButton {
+    position: absolute;
+    top: 66%;
+    right: 8.2%;
+    width: 3%;
+    height: 6%;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+#homeButton:hover {
+    cursor: pointer;
+}
+
+#battery {
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 6%;
+    height: 5%;
+    background-size: cover;
+    z-index: 3;
+}
+
+#wifi {
+    display: block;
+    position: absolute;
+    top: 4.5%;
+    right: 10%;
+    width: 4%;
+    height: 5.5%;
+    background-size: cover;
+    z-index: 3;
+}
+
+#profile:hover,
+#experience:hover,
+#education:hover,
+#projects:hover,
+#skills:hover {
+    border: 5px solid blue;
+    cursor: pointer;
+}
