@@ -1,0 +1,101 @@
+#experience {
+    display: none;
+    position: absolute;
+    top: 35%;
+    width: 24%;
+    height: 40%;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 2%;
+    background-image: url("images/experience/thumbnail.png");
+    background-size: cover;
+}
+
+#experience:hover + #experienceTitle {
+    display: block;
+    position: absolute;
+    top: 27%;
+    left: 3%;
+    font-size: 180%;
+}
+
+#experienceTitle {
+    display: none;
+}
+
+#experienceSection {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+/*Inside the experience section*/
+
+.skillBar {
+    position: absolute;
+    width: 35%; 
+    height: 10%;
+    background-color: #ddd; 
+    margin: 5%;
+    text-align: center;
+}
+
+#workBar {
+    top: 15%;
+    left: 27%;
+}
+
+#work {
+    width: 20%;
+    height: 100%;
+    background-color: #f44336;
+} 
+
+#hackathonBar {
+    top: 50%;
+    left: 5%;
+}
+
+#hackathon {
+    width: 20%;
+    height: 100%;
+    background-color: #2196F3;
+} 
+
+#volunteeringBar {
+    top: 50%;
+    right: 5%;
+}
+
+#volunteering {
+    width: 65%;
+    height: 100%;
+    background-color: #04AA6D;
+}
+
+#nextPage {
+    position: absolute;
+    top: 27%;
+    right: 2.9%;
+    width: 3%;
+    height: 6%;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.skillBar p {
+    font-size: 150%;
+    position: absolute;
+    z-index: 3;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 3%;
+}
+
+.skillBar:hover {
+    border: 5px solid blue;
+    cursor: pointer;
+}

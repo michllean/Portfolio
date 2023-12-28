@@ -1,0 +1,316 @@
+#skills {
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 72%;
+    width: 24%;
+    height: 40%;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 2%;
+    background-image: url("images/skills/thumbnail.png");
+    background-size: cover;
+}
+
+#skills:hover + #skillsTitle {
+    display: block;
+    position: absolute;
+    top: 27%;
+    left: 3%;
+    font-size: 180%;
+}
+
+#skillsTitle {
+    display: none;
+}
+
+#skillsSection {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    background-image: url("images/skills/skillHome.png");
+    background-size: cover;
+}
+
+/*Inside the skills section*/
+
+/*Me*/
+#me {
+    position: absolute;
+    bottom: 14.1%;
+    left: 42.5%;
+    width: 15.5%;
+    height: 27.5%;
+    border-radius: 50%;
+    background-size: cover;
+    z-index: 3;
+}
+
+/*Programming languages*/
+#programmingLanguage {
+    position: absolute;
+    bottom: 14.1%;
+    right: 13.3%;
+    width: 15.5%;
+    height: 27.5%;
+    border-radius: 50%;
+    background-size: cover;
+    z-index: 3;
+}
+
+#java {
+    display: none;
+    position: absolute;
+    width: 11.5%;
+    height: 10%;
+    left: 10%;
+    top: 30%;
+    z-index: 5;
+}
+
+#java:hover {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-image: url("images/skills/java.png");
+    background-size: 115% 115%; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#c {
+    display: none;
+    position: absolute;
+    width: 7%;
+    height: 10%;
+    left: 10%;
+    top: 40%;
+    z-index: 5;
+}
+
+#c:hover {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-image: url("images/skills/c.png");
+    background-size: 110% 110%; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#javascript {
+    display: none;
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 10%;
+    top: 52%;
+    z-index: 5;
+}
+
+#javascript:hover {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-image: url("images/skills/javascript.png");
+    background-size: 105% 105%; 
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*Personal Experience*/
+#personalExperience {
+    position: absolute;
+    bottom: 14.1%;
+    left: 13.5%;
+    width: 15.5%;
+    height: 27.5%;
+    border-radius: 50%;
+    background-size: cover;
+    z-index: 3;
+}
+
+#volunteeringP {
+    display: none;
+    position: absolute;
+    width: 24%;
+    height: 10%;
+    left: 10%;
+    top: 52%;
+    z-index: 5;
+}
+
+#volunteeringP:hover {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-image: url("images/skills/volunteering.png");
+    background-size: 105% 105%; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#workP {
+    display: none;
+    position: absolute;
+    width: 13%;
+    height: 10%;
+    left: 10%;
+    bottom: 27%;
+    z-index: 5;
+}
+
+#workP:hover {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-image: url("images/skills/work.png");
+    background-size: 110% 110%; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hackathonP {
+    display: none;
+    position: absolute;
+    width: 21%;
+    height: 10%;
+    left: 10%;
+    bottom: 15%;
+    z-index: 5;
+}
+
+#hackathonP:hover {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-image: url("images/skills/hackathon.png");
+    background-size: 105% 105%; 
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*Personal Skills*/
+#personalSkills {
+    position: absolute;
+    top: 13.7%;
+    left: 13.5%;
+    width: 15.5%;
+    height: 28%;
+    border-radius: 50%;
+    background-size: cover;
+    z-index: 3;
+}
+
+/*Programming Software*/
+#programmingSoftware {
+    position: absolute;
+    top: 13.7%;
+    left: 42.5%;
+    width: 15.5%;
+    height: 28%;
+    border-radius: 50%;
+    background-size: cover;
+    z-index: 3;
+}
+
+#VSC {
+    display: none;
+    position: absolute;
+    width: 37%;
+    height: 10%;
+    left: 10%;
+    top: 28%;
+    z-index: 5;
+}
+
+#VSC:hover {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-image: url("images/skills/vsc.png");
+    background-size: 103% 103%; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#intelliJ {
+    display: none;
+    position: absolute;
+    width: 28%;
+    height: 10%;
+    left: 10%;
+    top: 39%;
+    z-index: 5;
+}
+
+#intelliJ:hover {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-image: url("images/skills/intelliJ.png");
+    background-size: 105% 105%; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#eclipse {
+    display: none;
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 10%;
+    top: 51%;
+    z-index: 5;
+}
+
+#eclipse:hover {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-image: url("images/skills/eclipse.png");
+    background-size: 105% 105%; 
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#androidStudio {
+    display: none;
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    left: 10%;
+    top: 63%;
+    z-index: 5;
+}
+
+#androidStudio:hover {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    z-index: 5;
+    background-image: url("images/skills/androidStudio.png");
+    background-size: 104% 104%; 
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#personalExperience:hover,
+#personalSkills:hover,
+#programmingLanguage:hover,
+#programmingSoftware:hover,
+#me:hover {
+    border: 5px solid blue;
+    cursor: pointer;
+}
